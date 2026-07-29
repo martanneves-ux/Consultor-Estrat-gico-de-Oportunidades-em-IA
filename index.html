@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Strategic AI Opportunity Advisor</title>
+
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      min-height: 100vh;
+      font-family: Arial, Helvetica, sans-serif;
+      color: #ffffff;
+      background:
+        radial-gradient(circle at top right, #173d78 0%, transparent 35%),
+        linear-gradient(145deg, #06162f, #0a2348);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 32px 20px;
+    }
+
+    .page {
+      width: 100%;
+      max-width: 760px;
+      text-align: center;
+    }
+
+    .logo {
+      width: 68px;
+      height: 68px;
+      margin: 0 auto 28px;
+      border: 2px solid #5fa1ff;
+      border-radius: 18px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 30px;
+      color: #8bbcff;
+      background: rgba(255, 255, 255, 0.04);
+    }
+
+    h1 {
+      margin: 0;
+      font-size: clamp(34px, 6vw, 56px);
+      line-height: 1.05;
+      letter-spacing: -1.5px;
+    }
+
+    .subtitle {
+      margin: 22px auto 12px;
+      max-width: 610px;
+      font-size: 21px;
+      color: #c9dbf5;
+      line-height: 1.5;
+    }
+
+    .description {
+      max-width: 570px;
+      margin: 0 auto;
+      color: #91a9c9;
+      font-size: 16px;
+      line-height: 1.6;
+    }
+
+    .actions {
+      width: 100%;
+      max-width: 470px;
+      margin: 42px auto 55px;
+      display: grid;
+      gap: 15px;
+    }
+
+    .button {
+      display: block;
+      padding: 17px 22px;
+      border-radius: 12px;
+      text-decoration: none;
+      font-size: 17px;
+      font-weight: bold;
+      transition: transform 0.15s ease, opacity 0.15s ease;
+    }
+
+    .button:hover {
+      transform: translateY(-2px);
+      opacity: 0.94;
+    }
+
+    .primary {
+      color: #ffffff;
+      background: #2575e6;
+      box-shadow: 0 12px 30px rgba(37, 117, 230, 0.25);
+    }
+
+    .secondary {
+      color: #ffffff;
+      border: 1px solid rgba(255, 255, 255, 0.28);
+      background: rgba(255, 255, 255, 0.06);
+    }
+
+    .principles {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 24px;
+      padding: 35px 0;
+      border-top: 1px solid rgba(255, 255, 255, 0.15);
+      border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+      text-align: left;
+    }
+
+    .principle h2 {
+      margin: 0 0 8px;
+      font-size: 13px;
+      letter-spacing: 1.3px;
+      color: #76adff;
+    }
+
+    .principle p {
+      margin: 0;
+      color: #a9bdd8;
+      font-size: 14px;
+      line-height: 1.5;
+    }
+
+    footer {
+      margin-top: 32px;
+      color: #748cac;
+      font-size: 13px;
+      line-height: 1.7;
+    }
+
+    @media (max-width: 650px) {
+      body {
+        align-items: flex-start;
+      }
+
+      .principles {
+        grid-template-columns: 1fr;
+        text-align: center;
+      }
+
+      .subtitle {
+        font-size: 18px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <main class="page">
+
+    <div class="logo">AI</div>
+
+    <h1>Strategic AI Opportunity Advisor</h1>
+
+    <p class="subtitle">
+      Discover where AI creates real business value.
+    </p>
+
+    <p class="description">
+      An AI-powered advisor designed to identify high-impact business
+      opportunities and support strategic decision-making.
+    </p>
+
+    <div class="actions">
+
+      <a
+        class="button primary"
+        href="https://chatgpt.com/agents/a/agt_6a5e9047b6948191bcd5cd5c12af4428"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        Launch AI Agent
+      </a>
+
+      <a
+        class="button secondary"
+        href="project-report.pdf"
+        download
+      >
+        Download Project Report
+      </a>
+
+    </div>
+
+    <section class="principles">
+
+      <div class="principle">
+        <h2>BUSINESS FIRST</h2>
+        <p>Strategy before technology.</p>
+      </div>
+
+      <div class="principle">
+        <h2>VALUE DRIVEN</h2>
+        <p>Focus on measurable business impact.</p>
+      </div>
+
+      <div class="principle">
+        <h2>TRUST &amp; GOVERNANCE</h2>
+        <p>Governance and ethics by design.</p>
+      </div>
+
+    </section>
+
+    <footer>
+      Developed by Turma 6<br>
+      Academic Project · 2026
+    </footer>
+
+  </main>
+</body>
+</html>
